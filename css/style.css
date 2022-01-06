@@ -17,6 +17,13 @@ section {
   line-height: 54px;
   color: #333333;
 }
+.section_heading h2 {
+  font-size: 48px;
+  line-height: 70px;
+  font-weight: 900;
+  color: #13103a;
+  text-align: center;
+}
 
 h3 {
   font-weight: 600;
@@ -50,6 +57,9 @@ p {
 /* Positioning  */
 .text-right {
   text-align: right;
+}
+.text-center {
+  text-align: center;
 }
 .text-left {
   text-align: left;
@@ -101,13 +111,7 @@ p {
 }
 
 /* section 2 : My Mission in 2022 Starts  */
-#myMission .section_heading h2 {
-  font-size: 48px;
-  line-height: 70px;
-  font-weight: 900;
-  color: #13103a;
-  text-align: center;
-}
+
 #myMission .card p {
   font-size: 16px;
   line-height: 24px;
@@ -140,4 +144,48 @@ p {
 /* ---------- Section 4:  Know our Global Community Starts -------------- */
 #know_community .inner-content {
   padding-right: 106px;
+}
+
+/* ---------- Section 5:  Ask Question -------------- */
+.form-container {
+  min-width: 400px;
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 16px;
+  padding: 40px;
+}
+
+#askQuestion .inner-content {
+  padding-left: 72px;
+}
+form .form-control {
+  width: 90%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  padding: 16px;
+}
+form .form-control:active {
+  border: none;
+}
+form .btn-primary {
+  margin-top: 30px;
+  border: none;
+}
+
+#footer {
+  background-color: #0b0d17;
+  margin-top: 50px;
+}
+#footer h2 {
+  font-family: "Lobster", cursive;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  color: white;
+}
+#footer p {
+  color: white;
+}
+#footer .content-area {
+  padding: 46px 0px;
 }
