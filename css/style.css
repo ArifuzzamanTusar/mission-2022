@@ -4,12 +4,15 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
-section{
-    padding: 40px 0px;
+section {
+  padding: 40px 0px;
 }
-h1,
-h2,
 h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  color: #000000;
 }
 p {
   font-size: 18px;
@@ -23,6 +26,7 @@ p {
   text-decoration: none;
   line-height: 24px;
   color: #ffffff;
+  border-radius: 5px;
 }
 /* layout  */
 
@@ -30,14 +34,22 @@ p {
   max-width: 1128px; /*according to figma*/
   margin: 0px auto;
 }
+
+/* Positioning  */
 .text-right {
   text-align: right;
+}
+.text-left {
+  text-align: left;
 }
 .flex {
   display: flex;
 }
 .v-center {
   align-items: center;
+}
+.space-between{
+  justify-content: space-between;
 }
 .flex50 {
   width: 50%;
@@ -83,4 +95,23 @@ p {
   font-weight: 900;
   color: #13103a;
   text-align: center;
+}
+.card {
+  width: 320px;
+  padding: 20px;
+  border-radius: 26px;
+}
+.card img {
+  width: 140px;
+  height: 140px;
+}
+
+#mission {
+  background: rgba(79, 157, 166, 0.1);
+}
+#vission {
+  background: rgba(255, 89, 89, 0.1);
+}
+#goal {
+  background: #fff4d6;
 }
