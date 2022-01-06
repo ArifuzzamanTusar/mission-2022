@@ -1,4 +1,4 @@
-/* --Global Styles-- */
+/* ----------------Global Styles---------------------- */
 
 body {
   margin: 0;
@@ -11,7 +11,7 @@ section {
   padding: 40px 0px;
 }
 
-/* TYPO HEADINGS */
+/*--------------------- TYPO HEADINGS -------------------------*/
 
 .column_heading h2 {
   font-style: normal;
@@ -116,7 +116,7 @@ p {
   color: #ffad5a;
 }
 
-/* section 2 : My Mission in 2022 Starts  */
+/*--------------- section 2 : My Mission in 2022 Starts ------------------ */
 
 #myMission .card p {
   font-size: 16px;
@@ -216,6 +216,8 @@ form .btn-primary {
   border: none;
 }
 
+
+/* --------------Footer section -------------  */
 #footer {
   background-color: #0b0d17;
   margin-top: 50px;
