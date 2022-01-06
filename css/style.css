@@ -79,6 +79,9 @@ p {
 .flex50 {
   width: 50%;
 }
+.relative{
+  position: relative;
+}
 /* spacers */
 .sp15 {
   padding-bottom: 15px;
@@ -139,23 +142,61 @@ p {
   background: #fff4d6;
 }
 
+
+
 /* ------------Section 3:  Develop Without Limits Starts -------- */
 #dev_nolimits .inner-content {
   padding-left: 72px;
 }
+.dot1{
+  position: relative;
+}
 
+#dev_nolimits .circle{
+  position: absolute;
+  left: -100px;
+  top: 100px;
+  z-index: -1;
+}
+.dot1 img{
+  /* text-align: right; */
+  position: absolute;
+  right: 0;
+  top: -105px;
+
+}
 /* ---------- Section 4:  Know our Global Community Starts -------------- */
 #know_community .inner-content {
   padding-right: 106px;
 }
-
+#know_community .circle{
+ position: absolute;
+ bottom: -80px;
+ right: -100px;
+ z-index: -1;
+}
+.dot2{
+  position: relative;
+}
+.dot2 img{
+  position: absolute;
+  top: -100px;
+}
 /* ---------- Section 5:  Ask Question -------------- */
 .form-container {
   min-width: 400px;
-  background: rgba(79, 157, 166, 0.1);
+  background:#EDF5F6;
   border-radius: 16px;
   padding: 40px;
+  box-shadow: 10px 20px 30px rgba(255, 145, 0, 0.164);
 }
+.form-container .form_c1{
+  position: absolute;
+  z-index: -1;
+  top: -100px;
+  left: -100px;
+}
+
 
 #askQuestion .inner-content {
   padding-left: 72px;
