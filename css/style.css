@@ -1,0 +1,86 @@
+/* --Global Styles-- */
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+section{
+    padding: 40px 0px;
+}
+h1,
+h2,
+h3 {
+}
+p {
+  font-size: 18px;
+}
+
+.btn-primary {
+  padding: 12px 35px;
+  background: #ff5959;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 24px;
+  color: #ffffff;
+}
+/* layout  */
+
+.container {
+  max-width: 1128px; /*according to figma*/
+  margin: 0px auto;
+}
+.text-right {
+  text-align: right;
+}
+.flex {
+  display: flex;
+}
+.v-center {
+  align-items: center;
+}
+.flex50 {
+  width: 50%;
+}
+/* spacers */
+.sp15 {
+  padding-bottom: 15px;
+}
+.sp30 {
+  padding-bottom: 30px;
+}
+
+/* -------- Global Style Ends ------- */
+
+/* section 1 -    */
+.heading_area {
+  padding-top: 140px;
+}
+.heading_area .side_border {
+  width: 4px;
+  height: 124px;
+  background-color: #ff5959;
+  border-radius: 5px;
+  margin-right: 13px;
+}
+.dual_heading h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 60px;
+  line-height: 80px;
+  font-family: "Yeseva One", cursive;
+  font-weight: normal;
+  color: #333333;
+}
+.dual_heading span {
+  color: #ffad5a;
+}
+
+/* section 2 : myMission  */
+#myMission .section_heading h2 {
+  font-size: 48px;
+  line-height: 70px;
+  font-weight: 900;
+  color: #13103a;
+  text-align: center;
+}
